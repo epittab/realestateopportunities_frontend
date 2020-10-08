@@ -10,7 +10,7 @@ class ValueContainer extends Component<ValueState> {
     render() {
         return (
             <div className='ValueContainer'>
-                {[1, 2, 3, 4, 5].map(() => < Value /> )}
+                {['price', 'size', 'beds', 'baths', 'full_baths'].map(type => < Value valueType={type} /> )}
                 
             </div>
         )
