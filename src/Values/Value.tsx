@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Slider from '../Components/Slider'
+import Slider from '../Components/Slider/Slider'
 
 interface ValueProps {
     valueType: string;
